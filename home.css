@@ -1,0 +1,107 @@
+body {
+    background-color: #007363;
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 670px 130px auto 40px 10%;
+    justify-items: center;
+}
+
+.header {
+    display: grid;
+    grid-row: 1;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: 100%;
+    justify-items: center;
+}
+
+.header .logo {
+    display: grid;
+    grid-row: 1/2;
+    width: 230px;
+    padding: 40px;
+}
+
+.header .fam {
+    display: grid;
+    grid-row: 3;
+    height: 500px;
+    z-index: 1;
+    transform: translate(0px,0px);
+}
+
+.desc {
+    display: grid;
+    grid-row: 2;
+    width: 400px;
+}
+
+.desc h1 {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Rubik', sans-serif;
+}
+
+.chapters {
+    display: grid;
+    grid-row: 3;
+    list-style: none;
+    justify-items: center;
+}
+
+.chapters .button0 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 17px;
+    background-color: #ffbc00;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    padding: 20px;
+}
+
+.chapters .button1 {
+    margin-top: 50px;
+    background-color: #14554c;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.chapters .button1 h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.chapters .button1 button {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 100%;
+    border-style: none;
+}
+
+.footer {
+    padding: 20px;
+    grid-row: 5;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 6px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    display: grid;
+}
